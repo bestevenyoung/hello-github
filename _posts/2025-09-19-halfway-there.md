@@ -2,9 +2,8 @@
 layout: post
 title: "Halfway There..."
 ---
-
 <p align="center">
-  <img src="/hello-github/assets/images/Copilot_20250919_191611.png" alt="Captain’s Log Cover" width="800">
+  <img src="/assets/images/Copilot_20250919_191611.png" alt="Captain’s Log Cover" width="800">
 </p>
 
 
