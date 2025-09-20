@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Halfway There..."
+image: /assets/images/Copilot_20250919_191611.png
 ---
-<p align="center">
-  <img src="https://github.com/bestevenyoung/hello-github/blob/main/assets/images/Copilot_20250919_191611.png" alt="Captain’s Log Cover" width="800">
-</p>
+
+![Captain’s Log Cover](/assets/images/Copilot_20250919_191611.png)
 
 
 **Captain’s Log, Stardate 2025.09.19**  
