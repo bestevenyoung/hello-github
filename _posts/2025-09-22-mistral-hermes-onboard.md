@@ -9,7 +9,7 @@ image: /assets/images/20250922.png
 
 # hello-github: Mistral Hermes Onboard
 
-![Mistral Hermes Onboard](hello-github/assets/images/20250922.png)
+![Mistral Hermes Onboard](/hello-github/assets/images/20250922.png)
 
 ---
 
