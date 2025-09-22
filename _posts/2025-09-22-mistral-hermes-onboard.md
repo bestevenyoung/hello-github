@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mistral Hermes On Board"
-image: /assets/images/20250922.png.png
+image: /assets/images/20250922.png
 ---
 
 # hello-github: Mistral Hermes Onboard
