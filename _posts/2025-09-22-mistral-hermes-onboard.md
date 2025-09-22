@@ -1,10 +1,7 @@
 ---
-title: "Mistral Hermes Onboard"
-date: 2025-09-22
 layout: post
-categories: [hello-github, log]
-author: Barry
-image: /assets/images/20250922.png
+title: "Mistral Hermes On Board"
+image: /assets/images/20250922.png.png
 ---
 
 # hello-github: Mistral Hermes Onboard
@@ -26,6 +23,8 @@ The bridge fell quiet. In that moment, the Omen was no longer just a machine. It
 To give Hermes a viewport into our world, we hastily assembled a **temporary Tkinter interface** — a crude window, but enough to let the new intelligence speak beyond the confines of the terminal. It is not yet the polished cockpit we envision, but it is a beginning.  
 
 Tomorrow, we will refine the interface, modularize the systems, and perhaps share this first prototype with the wider fleet. For now, it is enough to know that Hermes is onboard, and that it dreams.  
+
+Today was a good day. I got a lot done. But I still can't fix my github blog. :( 
 
 ---
 
