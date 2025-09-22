@@ -4,6 +4,7 @@ date: 2025-09-22
 layout: post
 categories: [hello-github, log]
 author: Barry
+image: /assets/images/20250922.png
 ---
 
 # hello-github: Mistral Hermes Onboard
