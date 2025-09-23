@@ -1,15 +1,10 @@
 ---
 layout: post
-title: "Mistral Hermes On Board"
-image: /assets/images/20250922.png
+title: "Mistral Hermes Onboard"
 ---
 
-
 # hello-github: Mistral Hermes Onboard
-
-![Mistral Hermes Onboard](/assets/images/20250922.png)
-
-
+![Mistral Hermes Onboard](https://raw.githubusercontent.com/bestevenyoung/hello-github/main/assets/images/20250922.png)
 ---
 
 ### Captain’s Log — Stardate: Omen Refit, Day Two
