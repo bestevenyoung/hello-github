@@ -1,10 +1,8 @@
 ---
-
 title: "Trapped in Ollama's Beam"
 date: 2025-09-24
 layout: post
 image: "assets/images/20250925.png"
-
 ---
 
 ![Hermes Goes Psycho](https://github.com/bestevenyoung/hello-github/blob/main/assets/images/20250925.png)
