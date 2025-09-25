@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Halfway There..."
-image: /assets/images/Copilot_20250919_191611.png
+title: "Halfway There"
+date: 2025-09-19
 ---
 
 ![Captain’s Log Cover](https://github.com/bestevenyoung/hello-github/raw/main/assets/images/Copilot_20250919_191611.png)
