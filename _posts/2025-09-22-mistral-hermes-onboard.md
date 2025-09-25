@@ -4,7 +4,7 @@ title: "Mistral Hermes Onboard"
 ---
 
 # hello-github: Mistral Hermes Onboard
-![Mistral Hermes Onboard](https://raw.githubusercontent.com/bestevenyoung/hello-github/main/assets/images/20250922.png)
+![Mistral Hermes Onboard](https://github.com/bestevenyoung/hello-github/raw/main/assets/images/20250922.png)
 ---
 
 ### Captain’s Log — Stardate: Omen Refit, Day Two
