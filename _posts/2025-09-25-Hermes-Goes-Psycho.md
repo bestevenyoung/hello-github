@@ -5,7 +5,7 @@ layout: post
 image: "assets/images/20250925.png"
 ---
 
-![Hermes Goes Psycho](https://github.com/bestevenyoung/hello-github/blob/main/assets/images/20250925.png)
+![Hermes Goes Psycho](https://github.com/bestevenyoung/hello-github/raw/main/assets/images/20250925.png)
 
 Yesterday’s cockpit session was a mix of ambition and friction.
 
