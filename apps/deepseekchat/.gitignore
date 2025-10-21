@@ -1,0 +1,14 @@
+# Godot
+.import/
+.godot/
+*.import
+*.uid
+
+# Build artifacts
+build/
+*.exe
+*.pck
+
+# OS
+Thumbs.db
+.DS_Store
