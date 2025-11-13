@@ -1,0 +1,3 @@
+/home/barry/omen/godnux/build/CMakeFiles/godnux.dir
+/home/barry/omen/godnux/build/CMakeFiles/edit_cache.dir
+/home/barry/omen/godnux/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+{
+    "name": "TestModule",
+    "version": "1.0.0",
+    "description": "Test module for Godnux dynamic loading verification",
+    "author": "Godnux Team",
+    "license": "MIT",
+    "dependencies": [],
+    "category": "experimental",
+    "priority": "optional"
+}
