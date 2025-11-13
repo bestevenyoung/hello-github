@@ -1,0 +1,5 @@
+title: "hello-github"
+description: "AI: the new frontier. My mission: to create strange new builds, program bold systems, and document where no devlog has gone before."
+theme: minima
+plugins:
+  - jekyll-feed
