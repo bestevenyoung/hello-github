@@ -274,7 +274,112 @@ extern "C" {
     }
 }
 ```
+Current Godnux Flat Module Discovery System
+Flat Directory Structure
 
+The current Godnux module system uses a flat discovery approach where modules are organized in top-level categories without nested subdirectories. This is a deliberate design choice for simplicity during initial development.
+Module Directory Layout
+text
+
+modules/
+├── core/           # System-critical modules
+│   ├── module1.json
+│   ├── module1.so
+│   ├── module2.json
+│   └── module2.so
+├── official/       # Officially supported modules  
+│   ├── module3.json
+│   └── module3.so
+├── community/      # User-contributed modules
+│   ├── module4.json
+│   └── module4.so
+├── experimental/   # Development/untested modules
+│   ├── module5.json
+│   └── module5.so
+└── minimal/        # Test/proof-of-concept modules
+    ├── module6.json
+    └── module6.so
+
+Key Characteristics of Flat System
+
+    No Nested Categories: Modules cannot be organized in subfolders like community/games/ or official/network/
+
+    Single-Level Organization: All modules exist at the same depth within their category
+
+    Category-Based Trust: Trust level is determined solely by the top-level directory
+
+    Simple Discovery: Module scanning only needs to look one level deep
+
+How Trust Levels are Assigned
+cpp
+
+// From ModuleDiscovery::load_manifest_from_file
+std::string parent_dir = manifest_path.parent_path().filename().string();
+if (parent_dir == "core") manifest.trust_level = TRUST_CORE;
+else if (parent_dir == "official") manifest.trust_level = TRUST_OFFICIAL;  
+else if (parent_dir == "community") manifest.trust_level = TRUST_COMMUNITY;
+else manifest.trust_level = TRUST_EXPERIMENTAL;
+
+Module Discovery Process
+
+    Scan Fixed Paths: System checks predefined category directories
+
+    Flat File Search: Looks for .json manifests and .so files directly in category folders
+
+    Trust Assignment: Uses directory name to assign trust level
+
+    Simple Resolution: No complex dependency or category hierarchy to resolve
+
+Benefits of Flat System
+
+    Simplicity: Easy to understand and implement
+
+    Performance: Fast scanning with minimal directory traversal
+
+    Predictable: Clear rules for module organization
+
+    Development-Friendly: Low cognitive overhead during early development
+
+Limitations (Addressed in Godnux 2.0)
+
+    No subcategory organization (e.g., community/audio/, community/video/)
+
+    Limited namespace management
+
+    No module versioning within categories
+
+    Simple trust model without granular permissions
+
+Module Naming in Flat System
+
+Since modules exist in a flat namespace within each category, names must be unique per category:
+bash
+
+# Valid - unique within category
+modules/community/audio_processor.so
+modules/official/audio_processor.so    # Same name, different category
+
+# Invalid - would cause conflicts  
+modules/community/audio/processor.so   # Nested not supported
+modules/community/audio_processor/v1.so # Version subdirectories not supported
+
+Future Evolution
+
+This flat system will be maintained throughout Godnux 1.x development. Godnux 2.0 will introduce:
+
+    Hierarchical module organization
+
+    Advanced namespace management
+
+    Semantic versioning support
+
+    Enhanced dependency resolution
+
+    Granular trust and capability models
+
+For now, the flat system provides a solid foundation that's easy to work with while focusing on core kernel functionality.
+
+Note: This flat module discovery system is intentional and sufficient for current development needs. It reduces complexity while providing the essential functionality required for dynamic module loading.
 ---
 
 **Note**: This documentation reflects the current development state. The system is evolving rapidly, and some features may change as development progresses.
